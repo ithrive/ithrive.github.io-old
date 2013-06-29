@@ -2,35 +2,143 @@
 	<meta charset="utf-8">
 	<title>Welcome to iThrive</title>
 	
-    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" href="./css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  	<script async="" src="http://www.google-analytics.com/analytics.js"></script>
-  	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script async="" src="http://www.google-analytics.com/analytics.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-40023242-1', 'ithrive.net.au');
-	  ga('send', 'pageview');
+		ga('create', 'UA-40023242-1', 'ithrive.net.au');
+		ga('send', 'pageview');
 	</script>
 	
-    <div id="splash"> 
-		<img src="./img/ithrive_logo.jpg"><br>
-	
-		<p>
-			For more information about ithrive please contact<br>
-			<a href="mailto:laura@ithrive.net.au">laura@ithrive.net.au</a>
-		</p>
-		
-		<p>
-			Thank you!
-		</p>
+	<div class="background">
+		<img src="./images/flyer_background.png">
 	</div>
 	
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+	<div class="navbar-wrapper">
+		<!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+		<div class="container">
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#"><img src="images/ithrive_circle_small.png" alt="ithrive Pilates" style="height:22px"/></a>
+					<!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="divider"></li>
+							<li class="active"><a href="#">Home</a></li>
+							<li class="divider"></li>
+							<li><a href="#about">About Me</a></li>
+							<li class="divider"></li>
+							<li><a href="#contact">Contact</a></li>
+							<!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+							<li class="divider"></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li class="divider"></li>
+									<li class="nav-header">Nav header</li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!-- /.navbar-inner -->
+			</div><!-- /.navbar -->
+		</div> <!-- /.container -->
+	</div>
+	
+	<div class="navbar-padding" style="height:80px">
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="span12" style="text-align: center;">
+				<img src="./images/ithrive_logo_large.png" class="logo">
+			</div>
+		</div>
+	</div>
+	
+<!-- 	<div style="width: 100%; background: white"> -->
+	<div class="container">
+		
+		
+		<div class="row">
+			<div class="span4">
+				<h1>Who</h1>
+				<img src="./images/square_low.jpg" alt="" class="img-circle">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="span4">
+				<h1>Who</h1>
+				<img src="./images/square_low.jpg" alt="" class="img-circle">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="span4">
+				<h1>Who</h1>
+				<img src="./images/square_low.jpg" alt="" class="img-circle">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="span4">
+				<h1>Who</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="span4">
+				<h1>What</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="span4">
+				<h1>Where</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+		
+	</div>
+<!-- 	</div> -->
+	
+		
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$('#mainCarousel').carousel({
+				interval: 4000
+			});
+		})
+	</script>
+<!--		 <script src="./js/bootstrap.min.js"></script> -->
 </body>
 </html>
