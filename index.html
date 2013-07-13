@@ -21,52 +21,120 @@
 	</script>
 
 <body>
-	<div class="navbar-wrapper">
-		<div class="container">
-			<div class="navbar">
-				<div class="navbar-inner">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-						<a class="brand" href="#"><img src="images/ithrive_circle_small.png" alt="ithrive Pilates" style="height:22px"/></a>
-						<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="divider"></li>
-							<li class="active"><a href="#">Home</a></li>
-							<li class="divider"></li>
-							<li><a href="#about">Class Schedule</a></li>
-							<li class="divider"></li>
-							<li><a href="#contact">FAQ's</a></li>
-							<li class="divider"></li>
-							<li><a href="#contact">Testimonials</a></li>
-							<li class="divider"></li>
-							<li><a href="#contact">Contact</a></li>
-					</div>
+
+<div class="cover"></div>
+
+
+<div class="navbar-wrapper">
+	<div class="container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<!-- <a class="brand" href="#"><img src="images/ithrive_circle_small.png" alt="ithrive Pilates" style="height:22px"/></a> -->
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="divider"></li>
+						<li class="active"><a href="#about">About</a></li>
+						<li class="divider"></li>
+						<li><a href="#timetable">Timetable</a></li>
+						<li class="divider"></li>
+						<li><a href="#location">Location</a></li>
+						<li class="divider"></li>
+						<li><a href="#contact">Contact</a></li>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<div id="navbar-spacing"></div>
-	
-	<div class="container">
-		<div class="row">
-			<div class="span8">
-Pilates is a system of body conditioning that helps you build long, supple, flexible strength. ithrive's matwork courses start slow and precise, to ensure you target the correct muscles, and build over the weeks and levels to challenge your core, your stability and balance for ever increasing strength and agility.
-			</div>
+</div>
+
+
+<div id="navbar-spacing"></div>
+
+
+<div class="container page page-about">
+	<div class="row">
+		<div class="span4 offset4">
+			<img id="logo-main" src="./images/logo.png">
+		</div>
+	</div>
+</div>
+
+<!-- This logo is shown when viewing the 'location' information. It is never visible on a table or phone (the 'about' logo is instead). -->
+<div class="container page page-location hidden-desktop hidden-phone hidden-tablet">
+	<div class="row">
+		<div class="span4 offset4">
+			<img id="logo-main" src="./images/logo.png">
+		</div>
+	</div>
+</div>
+
+<div class="container page page-about">
+	<div class="row picture-circles">
+		<div class="span1">
+			<img src="./images/side_reach_2.jpg" alt="" class="img-circle">
+		</div>
+		<div class="span1">
+			<img src="./images/head_shot.jpg" alt="" class="img-circle">
+		</div>
+		<div class="span1">
+			<img src="./images/teaser.jpg" alt="" class="img-circle">
 		</div>
 	</div>
 	
+	<div class="row">
+		<div class="span8 info">
+			<div class="welcome">
+Welcome to ithrive Pilates matwork classes
+			</div>
+pilates is a system of body conditioning that not only improves your core strength, stability and flexibility, but also deepens the mind-body connection, allowing a more harmonious relationship with your physical self.
+		</div>
+	</div>
+</div>
 
+<a name="timetable"></a>
+<div class="container page page-timetable hidden-desktop">
+	<div class="row">
+		<div class="span8 info">
+			Monday at your-momma o'clock.
+		</div>
+	</div>
+</div>
+	
+
+<a name="location"></a>
+<div class="container page page-location hidden-desktop">
+	<div class="row">
+		<div class="span8 info">
+			I'm here bitches!!!
+		</div>
+	</div>
+</div>
+
+<a name="contact"></a>
+<div class="container page page-contact hidden-desktop">
+	<div class="row">
+		<div class="span8 info">
+			lauballs@ithrive.net.au
+		</div>
+	</div>
+</div>
+	
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-
 <script>
 	$(function(){
-
+		$(".navbar-inner a").click(function() {
+			var page = $(this).attr("href").replace(/#/, '');
+			$(".page").addClass("hidden-desktop");
+			$(".page-"+page).removeClass("hidden-desktop");
+			$(".navbar-inner .active").removeClass("active");
+			$(this).parent().addClass("active");
+		});
 	});
 </script>
 	
