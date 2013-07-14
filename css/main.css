@@ -126,6 +126,10 @@ tr > td:nth-child(4) {
 	text-align: center;
 }
 
+.level {
+	display: block;
+}
+
 @media (max-width: 979px) {
 /* iPad */
 	#navbar-spacing {
@@ -153,6 +157,10 @@ tr > td:nth-child(4) {
 		float: left;
 		width: inherit;
 		padding-right: 10px;
+	}
+	.table tr td,
+	.table tr td .level {
+		font-size: 12pt;
 	}
 	
 }
