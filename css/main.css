@@ -4,7 +4,9 @@
 	font-weight: 100; 
 	font-size: 18pt;
 	line-height: 1.3em;
+/* 
 	text-shadow: -1px -1px rgba(0,0,0, 0.2), 2px 2px rgba(255,255,255, 0.6);
+ */
 	color: #555;
 }
 
@@ -13,14 +15,15 @@
 }
  
 body {
-	background: url("../images/test_4.jpg");
-	background-position: 50% 50%;
+	background: url("../images/background_website.jpg");
+	background-position: 80% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 
 /* Play with me... */
+/* 
 .cover {
 	position:absolute;
 	width: 100%;
@@ -29,6 +32,7 @@ body {
 	opacity: 0.7;
 	z-index:-5;
 }
+ */
 
 .navbar .navbar-inner {
 	background: transparent;
@@ -67,9 +71,14 @@ body {
 }
 
 
-#logo-main {
+#logo-main,
+#logo-timetable {
 	width: 80%;
 	margin: 60px 10% 30px 10%;	
+}
+
+#logo-timetable {
+	width: 70%;
 }
 
 .welcome{
@@ -83,6 +92,32 @@ body {
 	margin-bottom: 10px;
 }
 
+h2 {
+/* font-size: 80%; */
+	font-weight: 100;
+	
+}
+
+h3 {
+/* 	font-size: 60%;  */
+	font-weight: 200;
+	color: rgb(134, 194, 65);
+}
+
+h4 {
+	font-style: italic;
+	font-weight: 100;
+}
+
+.term-dates{
+	padding-top: 60px;
+}
+
+
+tr > td:nth-child(3),
+tr > td:nth-child(4) {
+	text-align: center;
+}
 
 @media (max-width: 979px) {
 /* iPad */
@@ -106,6 +141,11 @@ body {
 	}
 	.info {
 		text-align: center;
+	}
+	.picture-circles > * {
+		float: left;
+		width: inherit;
+		padding-right: 10px;
 	}
 	
 }
