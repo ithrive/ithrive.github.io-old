@@ -21,6 +21,10 @@ body {
 	background-size: cover;
 }
 
+sup {
+	color: inherit !important;
+	font-size: inherit !important;
+}
 
 /* Play with me... */
 /* 
@@ -86,6 +90,8 @@ body {
 	font-weight: bolder;
 	color: rgb(134, 194, 65);
 	padding: 0.5em 0;
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.2)
+	
 }
 
 .picture-circles {
@@ -100,9 +106,10 @@ h2 {
 
 h3 {
 /* 	font-size: 60%;  */
-	font-weight: 200;
+	font-weight: 300;
 	color: rgb(134, 194, 65);
-}
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.2)
+	}
 
 h4 {
 	font-style: italic;
