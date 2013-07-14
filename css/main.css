@@ -114,10 +114,7 @@ h3 {
 h4 {
 	font-style: italic;
 	font-weight: 100;
-}
-
-.term-dates{
-	padding-top: 60px;
+	font-size: 65%;
 }
 
 
@@ -128,6 +125,20 @@ tr > td:nth-child(4) {
 
 .level {
 	display: block;
+}
+.timetable-sidenote {
+	font-style: italic;
+	font-weight: 100;
+	font-size: 65%;
+	padding-bottom: 20px
+}
+
+.term-dates {
+	margin-top: 80px;
+}
+
+.info {
+	text-align: center;
 }
 
 @media (max-width: 979px) {
@@ -162,5 +173,14 @@ tr > td:nth-child(4) {
 	.table tr td .level {
 		font-size: 12pt;
 	}
-	
+	.timetable {
+		margin-top: 0px;
+	}
+	.term-dates {
+	 	margin-top: 0px;
+	 }
+	 
+	h3 {
+	font-size: 14pt;
+	}
 }

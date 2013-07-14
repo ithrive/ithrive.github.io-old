@@ -63,13 +63,15 @@
 
 
 <!-- This logo is shown when viewing the 'location' information. It is never visible on a tablet or phone (the 'about' logo is instead). -->
-<div class="container page page-location hidden-desktop hidden-phone hidden-tablet">
+
+<div class="container page page-contact hidden-desktop hidden-phone hidden-tablet">
 	<div class="row">
 		<div class="span4 offset4">
 			<img id="logo-main" src="./images/logo.png">
 		</div>
 	</div>
 </div>
+
 
 <div class="container page page-about">
 	<div class="row picture-circles">
@@ -85,6 +87,7 @@
 	</div>
 </div>
 
+<!-- 
 <div class="container page page-location hidden-desktop">
 	<div class="row picture-circles">
 		<div class="span1">
@@ -95,6 +98,7 @@
 		</div>
 	</div>
 </div>
+ -->
 
 <div class="container page page-about">
 	<div class="row">
@@ -109,12 +113,18 @@ pilates is a system of body conditioning that not only improves your core streng
 
 <a name="timetable"></a>
 <div class="container page page-timetable hidden-desktop">
-	<div class="row" style="margin-top:35px;">
+	<div class="row" style="margin-top:20px">
 		<div class="span10">	
-			<h3>Term 3: Monday 27 May  -  <sup>*</sup>Monday 22 July<h3>
+			<h2>Current Term Dates<h2>
+			<h3>Term 3: Mon 27 May  -  Mon 22 July<sup>*</sup><h3>
 		</div>
 	</div>
 	<div class="row">
+		<div class="span10 timetable-sidenote">
+			<sup>*</sup>Monday classes finish 1 week later due to public holiday
+		</div>
+	</div>
+	<div class="row timetable">
 		<div class="span5 offset1">
 			<table class="table table-hover">
 				<tr>
@@ -139,9 +149,7 @@ pilates is a system of body conditioning that not only improves your core streng
 			</table>
 		</div>
 		<div class="row">
-			<div class="span6 offset2">
-				<h4><sup>*</sup>Monday classes finish 1 week later due to public holiday<h4>
-			</div>
+			
 		</div>
 	</div>
 	
@@ -150,59 +158,33 @@ pilates is a system of body conditioning that not only improves your core streng
 			<div class="span3 hidden-phone hidden-tablet">
 				<img id="logo-timetable" src="./images/logo.png">
 			</div>
-			<div class="span8 term-dates">
-				<h3>Term 4: 	Monday 29 July - Thursday 19 September<h3>
-			</div>
-			<div class="span7 offset1">
-				<h3>Term 5: 	<sup>#</sup>Thursday 5 October - Monday 25 November<h3>
-			</div>
+				<div class="span7 offset1 term-dates">
+						<h2>2013 Term Dates<h2>
+						<h3>Term 4: 	Mon 29 July - Thurs 19 September<h3>
+						<h3>Term 5: 	<sup>#</sup>Thurs 5 October - Mon 25 November<h3>
+						<h4><sup>#</sup>Monday classes start 1 week later due to public holiday<h4>
+				</div>
 		</div>
 	</div>
 </div>
 		
 
-		<!-- 
-<div class="row" style="margin-top:80px;">
-			<div class="span4" style="text-align: right;">
-				Term Dates 2013
-			</div>
-			<div class="span8">
-				<dl class="dl-horizontal">
-					<dt>Term 3:</dt> 
-					<dd>Monday 27 May  -  Monday 22 July<br>(due to the Queens birthday public holiday, Monday classes will run an extra week)</dd>
-				</dl>
-				
-				<dl class="dl-horizontal">
-					<dt>Term 4:</dt> 
-					<dd>Monday 29 July - Thursday 19 September</dd>
-				</dl>
-				
-				<dl class="dl-horizontal">
-					<dt>Term 5:</dt> 
-					<dd>Thursday 5 October - Monday 25 November<br>
-					(Monday classes begin 1 week later due to 30 September Public Holiday)</dd>
-				</dl>
-			</div>
-		</div>
-	</div>
-</div>
- -->
-	
-
 <a name="location"></a>
 <div class="container page page-location hidden-desktop">
 	<div class="row">
-		<div class="span8 info">
-			I'm here bitches!!!
-		</div>
+		<h2>Location Information<h2>
+		<h3>details coming soon...<h3>
+	</div>
+	<div class="row">
+		<img src="./images/location_page_map.jpg" alt="" class="img-circle">
 	</div>
 </div>
 
 <a name="contact"></a>
 <div class="container page page-contact hidden-desktop">
 	<div class="row">
-		<div class="span8 info">
-			lauballs@ithrive.net.au
+		<div class="span12 info">
+			For more information or to book into a course please email: <h3>laura@ithrive.net.au<h3>
 		</div>
 	</div>
 </div>
@@ -219,7 +201,7 @@ pilates is a system of body conditioning that not only improves your core streng
 			$(".navbar-inner .active").removeClass("active");
 			$(this).parent().addClass("active");
 		});
-		$(".navbar a").eq(1).click();
+		// $(".navbar a").eq(1).click();
 	});
 </script>
 	
