@@ -141,6 +141,36 @@ tr > td:nth-child(4) {
 	text-align: center;
 }
 
+
+/* LOCATION STUFF: */
+
+.page-location .row {
+	margin-top: 40px;
+}
+
+.page-location .span6 {
+	margin-top: 30px;
+}
+
+.address {
+	margin-top: 20px;
+	font-size: 34pt;
+}
+.address .building {
+	font-weight: 300;
+	font-size: 100%;
+}
+.address .street {
+	font-size: 80%;
+}
+.address .suburb {
+	font-size: 70%;
+	text-transform:uppercase;
+}
+
+
+
+
 @media (max-width: 979px) {
 /* iPad */
 	#navbar-spacing {
