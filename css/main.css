@@ -4,6 +4,8 @@
 	font-weight: 100; 
 	font-size: 18pt;
 	line-height: 1.3em;
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4);
+	
 /* 
 	text-shadow: -1px -1px rgba(0,0,0, 0.2), 2px 2px rgba(255,255,255, 0.6);
  */
@@ -33,9 +35,8 @@ body .background {
 	z-index: -1;
 }
 
-sup {
-	color: inherit !important;
-	font-size: inherit !important;
+a {
+	color: rgb(134, 194, 65);	
 }
 
 a.anchor {
@@ -102,13 +103,16 @@ a.anchor {
 	width: 70%;
 }
 
-.welcome{
+.welcome {
 	font-size: 120%;
 	font-weight: bolder;
 	color: rgb(134, 194, 65);
 	padding: 0.5em 0;
-	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.2)
-	
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4)	
+}
+
+.info {
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
 .picture-circles {
@@ -118,7 +122,6 @@ a.anchor {
 h2 {
 /* font-size: 80%; */
 	font-weight: 100;
-	
 }
 
 h3 {
@@ -144,25 +147,53 @@ tr > td:nth-child(4) {
 	padding-top: 20px;
 }
 
+.table td { 
+	line-height: 30px;
+	
+}
+
+
+/* 
+
 .level {
 	display: block;
+ */
 }
 .timetable-sidenote {
 	font-style: italic;
 	font-weight: 100;
 	font-size: 65%;
-	padding-bottom: 20px
+/* 	padding-bottom: 20px */
+}
+.call-to-action {
+	font-size: 80%;
+	background: white;
 }
 
-.term-dates {
-	margin-top: 80px;
+.dates-heading {
+	padding-bottom: 1px;
 }
+
+.joseph-quote {
+	text-align: center;
+	padding-top: 40px;
+}
+/* 
+.term-dates {
+	margin-top: 20px;
+}
+ */
 
 .contact-info {
 	text-align: center;
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
-
+.email-address {
+	font-weight: 300 !important;
+	color: rgb(134, 194, 65)!important;
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.2)!important;
+}
 /* LOCATION STUFF: */
 
 .page-location .row {
@@ -234,8 +265,17 @@ tr > td:nth-child(4) {
 	.table tr td .level {
 		font-size: 12pt;
 	}
+	
+	.call-to-action {
+		font-size: 12pt;
+	}
+	
 	.timetable {
-		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
+	.joseph-quote {
+		padding-top: 5px;
 	}
 	.term-dates {
 	 	margin-top: 0px;
