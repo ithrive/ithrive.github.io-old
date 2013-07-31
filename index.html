@@ -23,8 +23,8 @@
 <body>
 
 <img class="background page page-about hidden-phone" src="images/background_about.jpg" />
-<img class="background page page-location hidden-phone hidden-desktop" src="images/background_location.jpg" />
-<img class="background page page-timetable hidden-phone hidden-desktop" src="images/background_colored_d.jpg" />
+<img class="background page page-location hidden-phone hidden-desktop" src="images/background_contact2.jpg" />
+<img class="background page page-timetable hidden-phone hidden-desktop" src="images/background_timetable2.jpg" />
 <img class="background page page-contact hidden-phone hidden-desktop" src="images/background_contact.jpg" />
 
 <div class="navbar-wrapper">
@@ -53,32 +53,27 @@
 	</div>
 </div>
 
+<div class="visible-desktop" style="height:60px;"></div>
 
-<div id="navbar-spacing"></div>
 
+<div class="container">
 
-<div class="container page page-about">
-	<div class="row">
+	<div class="row page page-about">
 		<div class="span4 offset4">
 			<img id="logo-main" src="./images/logo.png">
 		</div>
 	</div>
-</div>
-
 
 <!-- This logo is shown when viewing the 'location' information. It is never visible on a tablet or phone (the 'about' logo is instead). -->
 
-<div class="container page page-contact hidden-desktop hidden-phone hidden-tablet">
-	<div class="row">
+	<div class="row page page-contact hidden-desktop hidden-phone hidden-tablet">
 		<div class="span4 offset4">
 			<img id="logo-main" src="./images/logo.png">
 		</div>
 	</div>
-</div>
 
 
-<div class="container page page-about">
-	<div class="row picture-circles">
+	<div class="row picture-circles page page-about">
 		<div class="span1">
 			<img src="./images/dot_side_reach.jpg" alt="" class="img-circle">
 		</div>
@@ -89,115 +84,92 @@
 			<img src="./images/dot_teaser.jpg" alt="" class="img-circle">
 		</div>
 	</div>
-</div>
 
-<!-- 
-<div class="container page page-location hidden-desktop">
-	<div class="row picture-circles">
-		<div class="span1">
-			<img src="./images/dot_head_shot.jpg" alt="" class="img-circle">
-		</div>
-		<div class="span1">
-			<img src="./images/dot_side_reach.jpg" alt="" class="img-circle">
-		</div>
-	</div>
-</div>
- -->
 
-<a class="anchor" name="about"></a>
-<div class="container page page-about">
-	<div class="row">
+	<a class="anchor" name="about"></a>
+	<div class="row page page-about">
 		<div class="span8 info">
-			<div class="welcome">
-Welcome to ithrive Pilates matwork classes
-			</div>
-pilates is a system of body conditioning that not only improves your core strength, stability and flexibility, but also deepens the mind-body connection, allowing a more harmonious relationship with your physical self.
+			<p class="welcome">
+				Welcome to ithrive Pilates matwork classes
+			</p>
+			<p>
+				Pilates is a system of body conditioning that not only improves your core
+				strength, stability and flexibility, but also deepens the mind-body 
+				connection, allowing a more harmonious relationship with your physical self.
+			</p>
 		</div>
 	</div>
-</div>
 
-<a class="anchor" name="timetable"></a>
-<div class="container page page-timetable hidden-desktop">
-	<div class="row" style="margin-top:30px">
-		<!-- 
-<div class="span3 hidden-phone hidden-tablet">
-				<img id="logo-timetable" src="./images/logo.png" style="margin-top: -1 0px">
-		</div>
- -->
-		<div class="span5 current-dates">	
-			<h2>Winter Timetable<h2>
+	<a class="anchor" name="timetable"></a>
+	<div class="hidden-desktop row">
+		<h1>Timetable</h1>
+	</div>
+	<div class="row page page-timetable hidden-desktop">
+		<div class="span5 current-dates">
+			<h2>Winter Timetable</h2>
 			<div class="timetable">
-				<table class="table table-hover">
-					<tr>
-						<td>Monday</td> 
-						<td> 
-								4.45pm
-						</td>
-						<td>
-								Level 2
-						</td> 
-					</tr>
-					<tr>
-						<td>
-						</td>
-						<td>
-								5.45pm
-						</td>
-						<td>
-								Level 2
-						</td>
-					</tr>
-
-					<tr>
-						<td> Thursday </td>
-						<td>
-							5.00pm
-						</td>
-						<td>
-							Level 1
-						</td>
-					</tr>
-					<tr>
-						<td>
-						</td>
-						<td>
-							6.00pm
-						</td>
-						<td>
-							Level 1
-						</td>
-					</tr>
-				</table>
-				<div class="call-to-action">
-				**New classes coming in Term 5!**
-<a href="mailto:laura@ithrive.net.au">Email Laura</a> and have your say about your preferred times
+				<div style="padding: 0px 0 20px 30px;">
+					<table class="table table-hover">
+						<tr>
+							<td>Monday</td> 
+							<td>4.45pm</td>
+							<td>Level 2</td> 
+						</tr>
+						<tr>
+							<td></td>
+							<td>5.45pm</td>
+							<td>Level 2</td>
+						</tr>
+						<tr>
+							<td>Thursday</td>
+							<td>5.00pm</td>
+							<td>Level 1</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>6.00pm</td>
+							<td>Level 1</td>
+						</tr>
+					</table>
+				</div>
+				<div class="footnote">
+					**New classes coming in Term 5!**<br>
+					<a href="mailto:laura@ithrive.net.au">Email Laura</a> 
+					and have your say about your preferred times
 				</div>
 			</div>
 		</div>
-		<div class="span7 term-dates">
-			<div class="dates-heading"><h2>Remaining 2013 Term Dates</h2></div>
-			<h3>Term 4: 	Mon 29 July - Thurs 19 September<h3>	
-			<h3>Term 5: 	Thurs 3 October - Mon 25 November<h3>
-			<h4>Monday classes start 1 week later due to public holiday<h4>
-			<h2>Summer series 2013/2014<h2>
-			<h3>Mon 2 Dec - Thurs 19 Dec (break) Mon 6 Jan - Thurs 23 Jan <h3>
-			<h4>To be confirmed: a 6 week series including a 2 week break for the Christmas/New Year period<h4>
+		<div class="span6 offset1 term-dates">
+			<h2>Remaining 2013 Term Dates</h2>
+			<ul>
+				<li><b>Term 4:</b>&nbsp;&nbsp;29th July - 19th September</li>
+				<li><b>Term 5:</b>&nbsp;&nbsp;3rd October - 25th November</li>
+			</ul>
+			<p class="footnote">
+				Monday classes start one week later due to public holiday
+			</p>
+			
+			<h2>Summer series 2013/2014</h2>
+			<ul>
+				<li><b>Term 1:</b>&nbsp;&nbsp;2nd Dec - 19th Dec and 6th Jan - 23rd Jan</li>
+			</ul>
+			<p class="footnote">
+				To be confirmed: a 6 week series including a 2 week break for the 
+				Christmas/New Year period
+			</p>
 		</div>
 	</div>
-	<div class="row joseph-quote">
-		<div class="span12">
-		"Pilates is designed to give you suppleness, natural grace & skill that will be unmistakably reflected in the way you walk, in the way you play & in the way you work" <br><i>Joseph Pilates</i> 
-		</div>
-	</div>
-</div>
 
 		
 
-<a class="anchor" name="location"></a>
-<div class="container page page-location hidden-desktop">
-	<div class="row">
+	<a class="anchor" name="location"></a>
+	<div class="hidden-desktop row">
+		<h1>Location</h1>
+	</div>
+	<div class="row page page-location hidden-desktop">
 		<div class="span4 offset1">
-			<img src="./images/location_page_map.jpg" alt="" class="img-circle" style="width:100%">
+			<div class="visible-desktop"></div>
+			<img src="./images/location_page_map.jpg" alt="" class="img-circle" style="width:100%;">
 		</div>
 		<div class="span6">
 			Conveniently located in the heart of the Parliamentary triangle, Canberra:
@@ -206,16 +178,17 @@ pilates is a system of body conditioning that not only improves your core streng
 				<div class="street">78 Franklin Street</div>
 				<div class="suburb">Forrest ACT</div>
 			</div>
-		</div>
-		<div class="span6 location-details">
-			Classes are held upstairs in the Cultural Room.  You will need to sign in at reception then come upstairs.  The Cultural Room can be accessed via the Boardroom to your left
+			<div class="location-details">
+				Classes are held upstairs in the Cultural Room.  
+				You will need to sign in at reception then come upstairs.  
+				The Cultural Room can be accessed via the Boardroom to your left
+			</div>
 		</div>
 	</div>
-</div>
 
-<a class="anchor" name="contact"></a>
-<div class="container page page-contact hidden-desktop">
-	<div class="row">
+
+	<a class="anchor" name="contact"></a>
+	<div class="row page page-contact hidden-desktop">
 		<div class="span12 contact-info">
 			For more information or to book into a course please email:<br>
 				<div class="email-address">
@@ -223,6 +196,8 @@ pilates is a system of body conditioning that not only improves your core streng
 				</div>
 		</div>
 	</div>
+	
+
 </div>
 	
 
@@ -237,7 +212,7 @@ pilates is a system of body conditioning that not only improves your core streng
 			$(".navbar-inner .active").removeClass("active");
 			$(this).parent().addClass("active");
 		});
-// 		$(".navbar a").eq(2).click();
+		$(".navbar a").eq(2).click();
 	});
 </script>
 	
