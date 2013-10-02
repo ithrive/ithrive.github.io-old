@@ -144,11 +144,11 @@ tr > td:nth-child(4) {
 }
 
 .timetable {
-	padding: 20px 0 20px 30px;
+	padding: 0px 0 20px 30px;
 }
 
 .table td { 
-	line-height: 30px;
+	line-height: 40px;
 }
 
 
