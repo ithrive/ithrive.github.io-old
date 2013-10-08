@@ -105,7 +105,8 @@ li {
 	width: 70%;
 }
 
-.welcome {
+.welcome 
+ {
 	font-size: 120%;
 	font-weight: 300;
 	color: rgb(134, 194, 65);
@@ -113,6 +114,13 @@ li {
 	/* text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4)	 */
 }
 
+.about-ithrive
+ {
+	font-size: 120%;
+	font-weight: 300;
+	color: rgb(134, 194, 65);
+	padding: 0.5em 0;
+}
 .info {
 	/* text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
 }
