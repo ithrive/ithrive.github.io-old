@@ -255,6 +255,11 @@ tr > td:nth-child(4) {
 	}
 	.info {
 		text-align: center;
+		font-size: 80%;
+	}
+	.testimonials {
+		text-align: center;
+		font-size: 80%;
 	}
 	.picture-circles > * {
 		float: left;
@@ -263,7 +268,7 @@ tr > td:nth-child(4) {
 	}
 	.table tr td,
 	.table tr td .level {
-		font-size: 12pt;
+		font-size: 8pt;
 	}
 	
 	.call-to-action {
@@ -280,7 +285,7 @@ tr > td:nth-child(4) {
 	 }
 	 
 	h3 {
-	font-size: 14pt;
+	font-size: 12pt;
 	}
 	
 	.page-location .span6 {
