@@ -121,6 +121,15 @@ li {
 	color: rgb(134, 194, 65);
 	padding: 0.5em 0;
 }
+
+.testimonials
+ {
+	font-size: 80%;
+	font-weight: 300;
+	color: rgb(134, 194, 65);
+	padding: 0.5em 0;
+}
+
 .info {
 	/* text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
 }
@@ -174,19 +183,10 @@ tr > td:nth-child(4) {
 	padding-bottom: 1px;
 }
 
-.joseph-quote {
-	text-align: center;
-	padding-top: 40px;
-}
-/* 
-.term-dates {
-	margin-top: 20px;
-}
- */
+
 
 .contact-info {
 	text-align: center;
-	/* text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
 }
 
 .email-address {
