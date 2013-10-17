@@ -269,20 +269,21 @@ tr > td:nth-child(4) {
 	}
 	.info {
 		text-align: center;
-		font-size: 80%;
+		font-size: 70%;
 	}
 	.testimonials {
 		text-align: center;
 		font-size: 80%;
+		font-weight: bold;
 	}
 	.picture-circles > * {
 		float: left;
-		width: inherit;
+		width: 25%;
 		padding-right: 10px;
 	}
 	.table tr td,
 	.table tr td .level {
-		font-size: 8pt;
+		font-size: 9pt;
 	}
 	
 	.call-to-action {
@@ -290,17 +291,34 @@ tr > td:nth-child(4) {
 	}
 	
 	.timetable {
-		padding-top: 0px;
+		padding: 0 !important;
+
 	}
 	
 	.term-dates {
 	 	margin-top: 0px;
-	 	padding-bottom: 60px
+	 	padding-bottom: 10px;
+	 	font-size: 60%; 	
 	 }
 
+	.welcome .about-ithrive {
+	 font-size: 150%;
+	}
 	 
 	h3 {
-	font-size: 12pt;
+	font-size: 70%;
+	padding: 0 !important;
+	}
+
+	h2 {
+	font-size: 100%;
+	padding: 0 !important;
+	}
+	
+	h1 {
+	font-weight: lighter;
+	font-size: 120%;
+	color: 
 	}
 	
 	.page-location .span6 {
