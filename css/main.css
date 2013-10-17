@@ -32,6 +32,7 @@ b {
  
 body {
 	position: relative;
+/* 	background-color: #DDD; */
 }
 
 body .background {
@@ -58,16 +59,26 @@ a.anchor {
 	line-height: 1.3em;
 }
 
+.footnote-green {
+	font-size: 13pt;
+	text-shadow:none;
+	font-weight:300;
+	line-height: 1.3em;
+	color: rgb(134, 194, 65);
+}
+
 ul {
 	padding: 0 20px;
 }
 
-li {
+ .term-dates {
 	color: rgb(134, 194, 65);
-	padding: 5px 0;
+	padding: 5px 5px;
 	line-height: 1.3em;
 	font-size: 16pt;
+	font-weight: bolder;
 }
+
 
 .navbar .navbar-inner {
 	background: transparent;
@@ -78,7 +89,7 @@ li {
 }
 
 .navbar .navbar-inner li > a {
-	font-size: 140%;
+	font-size: 120%;
 }
 
 .navbar .navbar-inner .active > a,
@@ -124,15 +135,12 @@ li {
 
 .testimonials
  {
-	font-size: 80%;
+	font-size: 100%;
 	font-weight: 300;
 	color: rgb(134, 194, 65);
 	padding: 0.5em 0;
 }
 
-.info {
-	/* text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
-}
 
 .picture-circles {
 	margin-bottom: 10px;
@@ -193,7 +201,13 @@ tr > td:nth-child(4) {
 	font-weight: 300 !important;
 	color: rgb(134, 194, 65)!important;
 	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.2)!important;
+	margin-bottom: 30px;
 }
+
+ .facebook-call-to-action {
+ 	font-size: 60%;
+ 	color: rgb(59, 89, 152);
+ }
 /* LOCATION STUFF: */
 
 .page-location .row {
@@ -283,6 +297,7 @@ tr > td:nth-child(4) {
 	 	margin-top: 0px;
 	 	padding-bottom: 60px
 	 }
+
 	 
 	h3 {
 	font-size: 12pt;
