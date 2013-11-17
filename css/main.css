@@ -2,7 +2,7 @@ body,
 td,
 .nav-collapse .nav > li > a { /* style the menu when in the iPhone mode */
 	font-size: 18pt;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', 'Helvetica', sans-serif;
 	font-weight: lighter;
 	line-height: 1.3em;
 /* 	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
@@ -67,6 +67,14 @@ a.anchor {
 	color: rgb(134, 194, 65);
 }
 
+.footnote-term-dates {
+	font-size: 13pt;
+	text-shadow:none;
+	font-weight:300;
+	line-height: 1.3em;
+	padding-left: 50px;
+}
+
 ul {
 	padding: 0 20px;
 }
@@ -76,7 +84,8 @@ ul {
 	padding: 5px 5px;
 	line-height: 1.3em;
 	font-size: 16pt;
-	font-weight: bolder;
+/* 	font-weight: ; */
+	padding-left: 50px;
 }
 
 
@@ -139,6 +148,19 @@ ul {
 	font-weight: 300;
 	color: rgb(134, 194, 65);
 	padding: 0.5em 0;
+	font-style: italic;
+}
+
+.testimonials span
+ {
+	font-size: 80%;
+	font-weight: 300;
+	color: rgb(134, 194, 65);
+	padding: 0.5em 0;
+	font-style: italic;
+	display: block;
+	text-align: right;
+	padding: 0 150px;
 }
 
 
