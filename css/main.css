@@ -1,7 +1,6 @@
 body,
-td,
-.nav-collapse .nav > li > a { /* style the menu when in the iPhone mode */
-	font-size: 18pt;
+td {
+	font-size: 14pt;
   font-family: 'Muli', 'Helvetica', sans-serif;
 	font-weight: lighter;
 	line-height: 1.3em;
@@ -9,6 +8,18 @@ td,
 	color: #555;
 }
 
+.nav-collapse .nav >li > a { /* style the menu when in the iPhone mode */
+	font-size: 14pt;
+  font-family: 'Muli', 'Helvetica', sans-serif;
+	font-weight: lighter;
+	line-height: 1.3em;
+/* 	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.4); */
+	color: rgb(169, 169, 169);
+}
+
+.green {
+	color: rgb(134, 194, 65);
+}
 h1 {
 	padding: 50px 0 20px 0;
 	margin: 0px;
@@ -52,6 +63,10 @@ a.anchor {
 	top:0px;
 }
 
+p {
+	padding: 10 0 0 0;
+}
+
 .footnote {
 	font-size: 13pt;
 	text-shadow:none;
@@ -75,8 +90,8 @@ a.anchor {
 	padding-left: 50px;
 }
 
-ul {
-	padding: 0 20px;
+li {
+line-height: 2;
 }
 
  .term-dates {
@@ -84,8 +99,6 @@ ul {
 	padding: 5px 5px;
 	line-height: 1.3em;
 	font-size: 16pt;
-/* 	font-weight: ; */
-	padding-left: 50px;
 }
 
 
@@ -95,10 +108,14 @@ ul {
 	box-shadow: none;
 	margin: 40px 0 0px 0;
 	padding: 0px;
+	color: rgb(169, 169, 169);
 }
 
 .navbar .navbar-inner li > a {
-	font-size: 120%;
+	font-size: 100%;
+	letter-spacing: 3px;
+/* 	line-height: 2; */
+	font-weight: lighter;
 }
 
 .navbar .navbar-inner .active > a,
@@ -106,7 +123,7 @@ ul {
 	box-shadow: none;
 	background-color: transparent;
 	color: rgb(134, 194, 65);
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .navbar-fixed-top {
@@ -142,6 +159,11 @@ ul {
 	padding: 0.5em 0;
 }
 
+.what-is-pilates
+ {
+	font-size: 90%;
+ }
+
 .testimonials
  {
 	font-size: 100%;
@@ -151,7 +173,7 @@ ul {
 	font-style: italic;
 }
 
-.testimonials span
+.testimonials .name
  {
 	font-size: 80%;
 	font-weight: 300;
@@ -163,13 +185,8 @@ ul {
 	padding: 0 150px;
 }
 
-
 .picture-circles {
 	margin-bottom: 10px;
-}
-
-h2 {
-	font-weight: 100;
 }
 
 h3 {
@@ -179,9 +196,9 @@ h3 {
 	}
 
 h4 {
-	font-style: italic;
+/* 	font-style: italic; */
 	font-weight: 100;
-	font-size: 65%;
+	font-size: 80%;
 }
 
 
@@ -191,7 +208,7 @@ tr > td:nth-child(4) {
 }
 
 .timetable {
-	padding: 0px 0 20px 30px;
+	padding: 20px 0 20px 30px;
 }
 
 .table td { 
@@ -291,12 +308,15 @@ tr > td:nth-child(4) {
 	}
 	.info {
 		text-align: center;
-		font-size: 70%;
+		font-size: 10pt;
 	}
 	.testimonials {
 		text-align: center;
-		font-size: 80%;
-		font-weight: bold;
+		font-size: 10pt;
+		color: #555;
+	}
+	.testimonials .name {
+	padding: 0 100; 
 	}
 	.picture-circles > * {
 		float: left;
@@ -306,6 +326,7 @@ tr > td:nth-child(4) {
 	.table tr td,
 	.table tr td .level {
 		font-size: 9pt;
+		padding: 0 5px 0 5px;
 	}
 	
 	.call-to-action {
@@ -317,15 +338,15 @@ tr > td:nth-child(4) {
 
 	}
 	
-	.term-dates {
+	.term-dates,
+	.footnote,
+	.footnote-green {
 	 	margin-top: 0px;
 	 	padding-bottom: 10px;
-	 	font-size: 60%; 	
+	 	font-size: 10pt; 	
 	 }
 
-	.welcome .about-ithrive {
-	 font-size: 150%;
-	}
+	
 	 
 	h3 {
 	font-size: 70%;
@@ -333,18 +354,24 @@ tr > td:nth-child(4) {
 	}
 
 	h2 {
-	font-size: 100%;
-	padding: 0 !important;
+	font-size: 14pt;
+	padding: 5px 0 5px 0!important;
 	}
 	
 	h1 {
-	font-weight: lighter;
-	font-size: 120%;
-	color: 
+	font-weight: 300;
+	font-size: 14pt;
+	color: rgb(134, 194, 65);
+	padding: 10px 0 5px 0; 
 	}
 	
-	.page-location .span6 {
+	.page-location .span6, .location-details {
 	text-shadow: none;
+	font-size: 10pt;
+	}
+	.address{
+	text-align: centre;
+	font-size: 12pt;
 	}
 
 }
