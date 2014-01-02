@@ -115,12 +115,10 @@ ul.nav li a:hover {
 
 .container {
 	background: white;
-	min-height: 600px;
 }
 
 .container.splash {
 	background: transparent;
-	min-height: initial;
 }
 
 .container.splash .logo-wrapper {
@@ -138,6 +136,7 @@ ul.nav li a:hover {
 	background-image: url('../img/splash.jpg');
 	background-size: cover;
 	background-position: 50%;
+	background-repeat: no-repeat;
 	position: absolute;
 	width: 100%;
 	min-height: 600px;
