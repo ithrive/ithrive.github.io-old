@@ -1,350 +1,174 @@
-<html lang="en"><head>
-	<meta charset="utf-8">
-	<title>Welcome to iThrive</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" href="./css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="./css/main.css">
-</head>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ithrive Pilates - Welcome</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="vendor/bootstrap-2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-<body>
-	<script async="" src="http://www.google-analytics.com/analytics.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter|Quicksand' rel='stylesheet' type='text/css'>
+        <link href="css/index.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
 
-		ga('create', 'UA-40023242-1', 'ithrive.net.au');
-		ga('send', 'pageview');
-	</script>
-	
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script async="" src="http://www.google-analytics.com/analytics.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-40023242-1', 'ithrive.net.au');
+	ga('send', 'pageview');
+</script>
 
-<img class="background hidden-phone" src="images/logo_ithrive_opaque.jpg" />
+<div class="home-splash"></div>
 
+<ul class="nav">
+    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="classes.html">Classes&plus;Cost</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
 
-<div class="navbar-wrapper">
-	<div class="container">
-		<div class="navbar">
-			<div class="navbar-inner">
-				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-					<!-- <a class="brand" href="#"><img src="images/ithrive_circle_small.png" alt="ithrive Pilates" style="height:22px"/></a> -->
-					<div class="nav-collapse collapse">
-					<ul class="nav">
-						<li class="divider"></li>
-						<li class="active"><a href="#about">About</a></li>
-						<li class="divider"></li>
-						<li><a href="#classes">Classes</a></li>
-						<li class="divider"></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li class="divider"></li>
-						<li><a href="#location">Location</a></li>
-						<li class="divider"></li>
-						<li><a href="#contact">Contact</a></li>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="container splash">
+    <div class="row">
+        <div class="span12 logo-wrapper">
+            <img src="img/logo_white.png" >
+        </div>
+    </div>
+    <div class="row hidden-phone">
+        <div class="span6 dot-wrapper">
+            
+            <img class="img-circle" src="img/dot_lunge.jpg" alt="" />
+            <img class="img-circle" src="img/dot_back_support.jpg" alt="" />
+            <img class="img-circle" src="img/dot_side_reach.jpg" alt="" />
+            <!-- <img class="img-circle" src="img/dot_front_support.jpg" alt="" /> -->
+            <img class="img-circle" src="img/dot_head_shot.jpg" alt="" />
+        </div>
+    </div>
+    <div style="height: 50px" class="visible-phone"></div>
 </div>
-
-<div class="visible-desktop" style="height:60px;"></div>
-
 
 <div class="container">
+    <div class="row hidden-phone">
+        <div class="span12">
+            <ul class="page-jumps">
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#instructor">Instructor</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h1 class="hidden-phone">Welcome to <em>ithrive Pilates</em></h1>
+            <h2 class="visible-phone">Welcome to <em>ithrive Pilates</em></h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span8">
+            <p>
+                <em>ithrive</em> is a boutique Pilates business offering
+                <ul>
+                    <li>Pilates mat-work classes</li>
+                    <li>small-group based (3-12 people)</li>
+                    <li>individualised instruction.</li>
+                </ul>
+            </p>
 
-	<div class="row page page-about">
-		<div class="span4 offset4">
-			<img id="logo-main" src="./images/logo.png">
-		</div>
-	</div>
+            <a name="benefits"></a>
+            <h2>Is <em>ithrive</em> right for you?</h2>
+            <p>
+                <em>ithrive Pilates</em> caters to many people including:
+                <ul>
+                    <li>those <em>recoving from injuries</em> who want to regain their former abilities</li>
+                    <li>people seeking better <em>postural awareness</em> to avoid long-term postural issues
+                        suffered by most in their latter years</li>
+                    <li>those looking for a well-rounded <em>sports/training compliment</em></li>
+                </ul>
+            </p>
+        </div>
+        <div class="span4">
+            <div class="green-theme info-box info-pilates">
+                <h2>What is Pilates?</h2>
+                <p>
+                    Pilates is a system of body conditioning that emphasises a flexible spine and strong core while fostering a deep mind-body awareness.
+                </p>
+                <p>
+                    Founder, Joseph Pilates, defined it as 
+                    <span class="quote">"a way to completely and thoroughly unify the body, mind and spirit."</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!-- This logo is shown when viewing the 'location' information. It is never visible on a tablet or phone (the 'about' logo is instead). -->
+<div class="container instructor">
+    <div class="row">
+        <div class="span9">
+            <a name="instructor"></a>
+            <h2>Meet Laura, your instructor</h2>
+            <p>
+                Laura is one of the most sought after Soft Tissue Therapists in Canberra and this is an added bonus as she explains how to get the best out of each move
+                <ul>
+                    <li>Certificate IV in Pilates Matwork Instruction</li>
+                    <li>Advanced Diploma of Soft Tissue Therapy</li>
+                    <li>Certificate IV in Assessment and Training</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
 
-	<div class="row page page-contact hidden-desktop hidden-phone hidden-tablet">
-		<div class="span4 offset4">
-			<img id="logo-main" src="./images/logo.png">
-		</div>
-	</div>
+<div class="container">
+    <div class="row">
+        <div class="span9">
+            <a name="testimonials"></a>
+            <h2>Testimonials</h2>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="span3">
+            <p class="quote">
+                "Since joining <em>ithrive</em> Pilates, and improving my core strength, I have been empowered to manage my lower back and disc issues for the first time in 20 years"
+            </p>
+            <p class="quotee">&mdash; Sally</p>
+        </div>
+        <div class="span3">
+            <p class="quote">
+                 "What is most special about Laura's classes is her attention to the needs of each individual in the group.  I always feel cared for and safe. It's that sense of being able to trust the instructor that is most important to me." 
+            </p>
+            <p class="quotee">&mdash; Lesley</p>
+        </div>
+        <div class="span3">
+            <p class="quote">
+                "Pilates is a deceptively athletic pursuit. By building core strength, stretching and balance, I've resolved many back issues, lost weight, and toned and firmed in unexpected places. Joining <em>ithrive</em> was one of the smarter things I've ever done for myself."
+            </p>
+            <p class="quotee">&mdash; Karen</p>
+        </div>
+        <div class="span3">
+            <p class="quote">
+                "My personal trainer had been nagging me for ages to sign up to do Pilates. I am so happy that I took up the challenge. Laura is a terrific instructor and manages to have us smiling through the often tricky positions."
+            </p>
+            <p class="quotee">&mdash; Rose</p>
+        </div>
+    </div>
 
-	<div class="row picture-circles page page-about">
-			<div class="span1">
-			<img src="./images/dot_lunge.jpg" alt="" class="img-circle">
-		</div>
-		<div class="span1">
-			<img src="./images/dot_back_support.jpg" alt="" class="img-circle">
-		</div>
-		<div class="span1">
-			<img src="./images/dot_side_reach.jpg" alt="" class="img-circle">
-		</div>
-		<div class="span1">
-			<img src="./images/dot_front_support.jpg" alt="" class="img-circle">
-		</div>
-	</div>
-
-
-	<a class="anchor" name="about"></a>
-	<div class="row page page-about" style="margin-bottom:60px;">
-	
-		<div class="span8 info">
-			<h2>Welcome to ithrive Pilates matwork classes</h2>
-			<!-- 
-<p>
-				Pilates is a system of body conditioning that not only improves your core
-				strength, stability and flexibility, but also deepens the mind-body 
-				connection, allowing a more harmonious relationship with your physical self.
-			</p>
- </p>
- -->
-			<p>
-				<span class="green">ithrive</span> is a boutique Pilates business offering small group mat-work classes with an emphasis on quality instruction and individualised attention.
-			</p>
-			
-		</div>
-		<!-- 
-<div class="span4">
-			<div class="fb-like-box" data-href="https://www.facebook.com/ithrive.pilates" data-width="The pixel width of the plugin" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
-		</div>
- -->
-		
-		
-		<div class="span5 info">
-			<h2>What is Pilates?</h2>
-			<div class="what-is-pilates">
-				Pilates is a system of body conditioning that emphasises <b>spinal mobility and stability, posture and awareness.</b><br><br>Founder, Joseph Pilates, defined it as "a way to completely and thoroughly unify the body, mind and spirit."  Through Pilates you will build a lean, supple strength, beautiful posture and a level of body awareness that will permeate your every movement with grace and fluidity and a natural resistance to injury.<br><br>
-				In Pilates mat-work you use primarily your own body weight to provide resistance in a flowing sequence of exercises. A class will systematically mobilise your spine, then centre you, strengthen your core and postural muscles, then challenge you to integrate all the elements to finish with a body that feels lengthened, energised and balanced.<br><br>
-				It begins gentle enough to be suitable for all - all age groups, all body types, all levels of conditioning, though with a four-tiered system of difficulty (from level one to level four) there is a class to suit everyone: from the most timid beginner to the most adventurous of body sculptors.
-			</div>
-		</div>
-		
-		<div class="span5 offset2 info">
-			<h2>Is Pilates right for me?</h2>
-			<div class="what-is-pilates">
-				Whether you are recovering from injury, need a postural overhaul or simply want to tone and strengthen, <span class="green">ithrive</span> has a class for you.
-				<p><span class="green">Many people choose ithrive Pilates</span>  
-					<br>To strengthen up and get back on their feet following injury
-					<br>For greater postural awareness and improvement
-					<br>To compliment their sport and other physical training
-					<br>To stretch, strengthen, energise and feel fantastic!</p>
-				<p><span class="green">Level 1</span> classes are designed to give you a good grounding in the basics. Discover:
-					<ul>
-						<li>Your core muscles and how to strengthen them</li>
-						<li>Neutral spine and the foundations of great posture</li>
-						<li>The art of breathing fully and well</li>
-						<li>How to mobilise your own spine</li>
-					</ul>
-				You will also begin to improve awareness around your own body, breaking down poor postural habits where necessary and strengthening up in areas of weakness or instability.</p>
-				<p><span class="green">Level 2</span> classes build on the foundations learnt in level 1. You will begin to string exercises together in a flowing sequence to build greater strength and endurance.</p>
-
-				<p>The focus each week can vary and may include emphasis on a particular body area - say low back, shoulders, wrists, or knees; or a particular muscle group - hamstrings, back extensors, gluteals. The variations are endless - but your abs will ALWAYS get a great workout!</p>
-				<p><b><span class="green">Look out for Level 3 classes coming soon in 2014!</span></b></p>
-
-			</div>
-		</div>
-	</div>
-
-	<a class="anchor" name="testimonials"></a>
-	<div class="hidden-desktop row">
-		<h1>Testimonials</h1>
-	</div>
-	
-	<div class="row page page-testimonials hidden-desktop">
-		<div class="span12 testimonials">
-			<p class="testimonials">
-				"Since joining <span class="green">ithrive</span> Pilates, and improving my core strength, I have been empowered to manage my lower back and disc issues for the first time in 20 years" <span class="name">- Sally</span>
-			</p>
-			<p class="testimonials">
-				"What is most special about Laura's classes is her attention to the needs of each individual in the group.  She models  good practice and seems to understand all the issues we each might have individually... I always feel cared for and safe. It's that sense of being able to trust the instructor that is most important to me." <span class="name">- Lesley</span>
-			</p>
-			<p class="testimonials">
-				"Pilates is a deceptively athletic pursuit. By building core strength, stretching and balance,  I’ve resolved many back issues, lost weight, and toned and firmed in unexpected places.. Pilates has actually made me taller by helping me stand and sit straighter!  Joining <span class="green">ithrive</span> was one of the smarter things I’ve ever done for myself and I encourage my friends, family and workmates to take the plunge and see what it can do for them." <span class="name">- Karen</span>
-			</p>
-		</div>
-	</div>
-
-
-	<a class="anchor" name="classes"></a>
-	<div class="hidden-desktop row">
-		<h1>Timetable</h1>
-	</div>
-	
-	<div class="row page page-classes hidden-desktop">
-		<div class="span6 current-dates">
-			<div class="hidden-phone">
-				<h2>Summer Timetable - 6 weeks</h2>
-			</div>
-				<p class="footnote"><i>valid from:</i><br> <b>Monday 2<sup>nd</sup> December to Thursday 19<sup>th</sup> December</b> and<br> <b>Monday 6<sup>th</sup> January to Thursday 23<sup>rd</sup> January</b><br>(the term breaks for two weeks over the Christmas/New Year period)</p>
-			<div class="timetable">
-				<table class="table table-hover">
-					<tr>
-						<td>Monday</td>			<td>4.45pm</td><td><span class="red">FULL (L2)</span></td> 
-					</tr>
-					<tr>
-						<td></td>						<td>5.45pm</td><td>Level 1</td>
-					</tr>
-					<tr>
-						<td>Tuesday</td>		<td>6.30pm</td><td>Level2</td>
-					</tr>
-					<tr>
-					 <td>Wednesday</td>		<td>12.30pm</td><td>Level 1 Open</td>
-					</tr>
-					<tr>
-						<td>Thursday</td>		<td>5.00pm</td><td><span class="red">FULL (L1)</span></td>
-					</tr>
-					<tr>
-						<td></td>						<td>6.00pm</td><td>Level 2</td>
-					</tr>
-				</table>
-			</div>
-			<p class="footnote-green">"Level 1" classes are suitable for complete beginners or those wanting to consolidate the foundations</p>
-			<p class="footnote">"Level 2" classes provide a greater challenge and require at least one term in Level 1</p>
-			<p class="footnote-green">"Open" classes can be attended on a casual basis at a rate or $28 per class.  Class level will tend toward beginner, but amended based on participant capability
-			</p>
-			<p class="footnote"><b>Make-up Policy</b>:  Missed classes can be made up within the current term.  Just let Laura know which session you will be attending.  Please be aware credits for missed classes will not be carried over to the next term</p>
-					<p class="footnote-green">Unless described as "Open", classes must be pre-booked and pre-paid in term blocks</p>
-		</div> <!-- <div class="span12> -->	
-		<div class="span3 offset1">
-			<h2>Costing</h2>
-			<h3>6 week term:</h3><p class="footnote"> one class per week = $150
-														<p class="footnote"> two classes per week = $270
-			<h3>10 week term:</h3><p class="footnote"> one class per week = $250
-														<p class="footnote"> two classes per week = $450
-			<h3>Casual class</h3><p class="footnote"> $28
-														
-		
-		</div>
-		
-		<div class="span5 offset1">
-			<h2>2013/2014 Summer Series</h2>
-			<p class="term-dates">2nd Dec - 19th Dec and 6th Jan - 23rd Jan <br>(6 week term)</p>
-			<p class="footnote">
-				A 6 week series including a 2 week break for the 
-				Christmas/New Year period
-			</p>
-			<h2>2014 Term Dates</h2>
-			<p class="footnote">
-				In 2014, terms will align with ACT School terms and courses will run in 10 week blocks
-			</p>
-			<p class="term-dates">
-				3rd February - 11 April<br>
-				28 April - 4 July<br>
-				21 July - 26 September<br>
-				13 October - 19 December<br>
-			</p>
-		</div>
-	</div>
-
-
-	<!-- 
-<a class="anchor" name="terms"></a>	
-	<div class="hidden-desktop row">
-		<h1>Terms</h1>
-	</div>
-	
-	<div class="row page page-terms hidden-desktop">
-		<div class="span6 offset1">
-			<h2>2013 Term Dates</h2>
-			<ul>
-				<li><b>Term 5:</b>&nbsp;&nbsp;7th October - 28th November</li>
-			</ul>
-			
-			<h2>2013/2014 Summer Series</h2>
-			<ul>
-				<li><b>Term 1:</b>&nbsp;&nbsp;2nd Dec - 19th Dec and 6th Jan - 23rd Jan</li>
-			</ul>
-			<p class="footnote">
-				To be confirmed: a 6 week series including a 2 week break for the 
-				Christmas/New Year period
-			</p>
-			<h2>2014 Term Dates</h2>
-			<p class="footnote">
-				In 2014, terms will align with ACT School terms and courses will run in 10 week blocks
-			</p>
-			<ul>
-				<li><b>Term 1:</b>&nbsp;&nbsp;3rd February - 11 April</li>
-				<li><b>Term 2:</b>&nbsp;&nbsp;28 April - 4 July</li>
-				<li><b>Term 3:</b>&nbsp;&nbsp;21 July - 26 September</li>
-				<li><b>Term 4:</b>&nbsp;&nbsp;13 October - 19 December</li>
-				<li></li>
-			</ul>
-		</div>
-	</div>
-	</div>
- -->
-		
-
-	<a class="anchor" name="location"></a>
-	<div class="hidden-desktop row">
-		<h1>Location</h1>
-	</div>
-	
-	<div class="row page page-location hidden-desktop">
-		<div class="span4 offset1">
-			<div class="visible-desktop"></div>
-			<img src="./images/location_page_map.jpg" alt="" class="img-circle" style="width:100%;">
-		</div>
-		<div class="span6">
-			Conveniently located in the heart of the Parliamentary triangle, Canberra:
-			<div class="address">
-				<div class="building">Italo-Australian Club</div>
-				<div class="street">78 Franklin Street</div>
-				<div class="suburb">Forrest ACT</div>
-			</div>
-			<div class="location-details">
-				Classes are held upstairs in the Cultural Room.  
-				You will need to sign in at reception then come upstairs.  
-				The Cultural Room can be accessed via the Boardroom to your left
-			</div>
-		</div>
-	</div>
-
-
-	<a class="anchor" name="contact"></a>
-	<div class="row page page-contact hidden-desktop">
-		<div class="contact-info">
-			For more information or to book into a course please email:<br>
-				<div class="email-address">
-					<a href="mailto:laura@ithrive.net.au">laura@ithrive.net.au</a>
-				</div>
-				<div class="facebook-call-to-action">
-				<a href="https://www.facebook.com/ithrive.pilates" target="_blank"><img src="./images/facebook_logo.jpg" border="0" alt="Find us on Facebook"></a>
-				Follow me on Facebook
-				<div>
-		</div>
-	</div>
-	
+    <div class="row">
+        <div class="offset4 span4 clickthrough">
+            <a href="classes.html">
+                Click here to view times and prices
+            </a>
+        </div>
+    </div>
 
 </div>
-	
+    
 
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script>
-	$(function(){
-		$(".navbar-inner a").click(function() {
-			var page = $(this).attr("href").replace(/#/, '');
-			$(".page").addClass("hidden-desktop");
-			$(".page-"+page).removeClass("hidden-desktop");
-			$(".navbar-inner .active").removeClass("active");
-			$(this).parent().addClass("active");
-		});
-		// $(".navbar a").eq(0).click();
-	});
-</script>
-	
-</body>
+
+
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+		<script src="vendor/bootstrap-2.3.2/js/bootstrap.min.js"></script>
+	</body>
 </html>
