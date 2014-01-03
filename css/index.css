@@ -199,6 +199,7 @@ ul.page-jumps li a {
 	background-size: cover;
 	background-position: 90% 10%;
 	min-height: 300px;
+	padding-bottom: 70px;
 
 }
 .container.instructor h2 {
