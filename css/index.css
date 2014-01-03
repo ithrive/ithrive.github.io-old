@@ -73,13 +73,12 @@ ul.smaller-list {
 }
 .quote {
 	font-style: italic !important;
-	/*font-size: 110%;*/
 	display: inline-block;
 	padding: 10px;
 	font-family: 'Architects Daughter';
 	letter-spacing: 0.1em;
 	font-weight: 100;
-	text-align: justify;
+	text-align: center;
 }
 .quotee {
 	text-align: right;
@@ -158,7 +157,6 @@ ul.nav li a:hover {
 	font-size: 120%;
 }
 .info-box .quote {
-	text-align: center;
 	padding: 10px 0;
 	font-size: 110%;
 }
