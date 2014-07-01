@@ -3,6 +3,14 @@ layout: standard
 title: Welcome
 page: index
 ---
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container splash">
     <div class="row">
@@ -147,6 +155,7 @@ page: index
 						<div class="info-offer">Introduce someone you love to the benefits of Pilates AND save money!<br>Refer a friend this term and you BOTH save $50 on your course fee.
 							</div>	
 							<p class="special">Simply book and pay in full before Monday 21st July to be eligible.</p>
+							<br><div class="span5	 offset3 fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 					</div>
 				</div>
 		</div>
